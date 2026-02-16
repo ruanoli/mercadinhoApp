@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{44632C0A-98C5-455F-A73B-403562F17136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{88211A1D-09F4-4084-917D-B97AF9065D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercadinho.Web", "Mercadinho.Web\Mercadinho.Web.csproj", "{7EE4F016-FB0D-4FB3-BB39-C495003011B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercadinho.API", "Mercadinho.API\Mercadinho.API.csproj", "{1A4E3953-64A1-4F0A-A3F9-8E4A9FBF355A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EE4F016-FB0D-4FB3-BB39-C495003011B7} = {44632C0A-98C5-455F-A73B-403562F17136}
+		{1A4E3953-64A1-4F0A-A3F9-8E4A9FBF355A} = {88211A1D-09F4-4084-917D-B97AF9065D7E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EE4F016-FB0D-4FB3-BB39-C495003011B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE4F016-FB0D-4FB3-BB39-C495003011B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE4F016-FB0D-4FB3-BB39-C495003011B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE4F016-FB0D-4FB3-BB39-C495003011B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4E3953-64A1-4F0A-A3F9-8E4A9FBF355A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4E3953-64A1-4F0A-A3F9-8E4A9FBF355A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4E3953-64A1-4F0A-A3F9-8E4A9FBF355A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4E3953-64A1-4F0A-A3F9-8E4A9FBF355A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
