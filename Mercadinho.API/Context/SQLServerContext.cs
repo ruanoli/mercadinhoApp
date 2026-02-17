@@ -1,6 +1,7 @@
+using Mercadinho.API.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Mercadinho.API.Models.Context;
+namespace Mercadinho.API.Context;
 
 public class SQLServerContext : DbContext
 {

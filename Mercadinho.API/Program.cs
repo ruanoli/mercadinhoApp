@@ -1,4 +1,4 @@
-using Mercadinho.API.Models.Context;
+using Mercadinho.API.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
